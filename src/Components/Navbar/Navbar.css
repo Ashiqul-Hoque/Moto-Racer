@@ -1,0 +1,7 @@
+.nav-container {
+  padding: 0 30px;
+}
+.navList a {
+  text-decoration: none;
+  padding-left: 20px;
+}

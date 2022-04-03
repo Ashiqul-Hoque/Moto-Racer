@@ -5,9 +5,9 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 nav-container">
         <div className="container-fluid">
-          <h1 className="navbar-brand" href="#">
+          <h1 className="navbar-brand my-0" href="#">
             Moto Racer
           </h1>
           <button
@@ -23,7 +23,7 @@ const Navbar = () => {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 navList">
               <li className="nav-item active">
                 <Link to="/home">Home</Link>
               </li>
