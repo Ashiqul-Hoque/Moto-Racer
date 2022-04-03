@@ -1,7 +1,23 @@
 .nav-container {
   padding: 0 30px;
 }
+.name {
+  color: #00aeae;
+  font-size: 30px;
+  font-weight: 500;
+}
 .navList a {
   text-decoration: none;
-  padding-left: 20px;
+  padding: 8px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+
+.active-link a {
+  text-decoration: none;
+}
+.link {
+  color: black;
 }

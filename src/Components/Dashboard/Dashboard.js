@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Dashboard.css";
 import {
   AreaChart,
@@ -7,6 +7,9 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
+  BarChart,
+  Legend,
+  Bar,
 } from "recharts";
 
 const data = [
@@ -46,24 +49,25 @@ const data = [
     pv: 3800,
     amt: 2500,
   },
-  {
-    name: "Page G",
-    uv: 3490,
-    pv: 4300,
-    amt: 2100,
-  },
 ];
 
 const Dashboard = () => {
+  const [datas, setDatas] = useState([]);
+  useEffect(() => {
+    fetch("data.json")
+      .then((response) => response.json())
+      .then((data) => setDatas(data));
+  }, []);
+
   return (
-    <div>
-      <div>
+    <div className="chart-container">
+      <div className="mx-auto">
         <AreaChart
-          width={500}
+          width={550}
           height={400}
           data={data}
           margin={{
-            top: 10,
+            top: 30,
             right: 30,
             left: 0,
             bottom: 0,
@@ -73,11 +77,50 @@ const Dashboard = () => {
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
-          <Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
+          <Area
+            type="monotone"
+            dataKey="uv"
+            stackId="1"
+            stroke="#8884d8"
+            fill="#8884d8"
+          />
+          <Area
+            type="monotone"
+            dataKey="pv"
+            stackId="1"
+            stroke="#82ca9d"
+            fill="#82ca9d"
+          />
+          <Area
+            type="monotone"
+            dataKey="amt"
+            stackId="1"
+            stroke="#ffc658"
+            fill="#ffc658"
+          />
         </AreaChart>
       </div>
-
-      <div></div>
+      <div className="mx-auto">
+        <BarChart
+          width={600}
+          height={420}
+          data={data}
+          margin={{
+            top: 30,
+            right: 30,
+            left: 0,
+            bottom: 0,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey="pv" fill="#8884d8" />
+          <Bar dataKey="uv" fill="#82ca9d" />
+        </BarChart>
+      </div>
     </div>
   );
 };
