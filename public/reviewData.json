@@ -2,42 +2,42 @@
   {
     "id": 1,
     "name": "A",
-    "img": "http://placehold.it/32x32",
+    "img": "customer-image/player-1.png",
     "text": "bbbbbb",
     "star": 1
   },
   {
     "id": 2,
     "name": "B",
-    "img": "http://placehold.it/32x32",
+    "img": "customer-image/player-2.png",
     "text": "bbbbbb",
     "star": 1
   },
   {
     "id": 3,
     "name": "C",
-    "img": "http://placehold.it/32x32",
+    "img": "customer-image/player-3.png",
     "text": "bbbbbb",
     "star": 1
   },
   {
     "id": 4,
     "name": "D",
-    "img": "http://placehold.it/32x32",
+    "img": "customer-image/player-4.png",
     "text": "bbbbbb",
     "star": 1
   },
   {
     "id": 5,
     "name": "E",
-    "img": "http://placehold.it/32x32",
+    "img": "customer-image/player-5.png",
     "text": "bbbbbb",
     "star": 1
   },
   {
     "id": 6,
     "name": "F",
-    "img": "http://placehold.it/32x32",
+    "img": "customer-image/player-6.png",
     "text": "bbbbbb",
     "star": 1
   }

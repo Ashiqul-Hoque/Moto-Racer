@@ -1,0 +1,8 @@
+.card img {
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+}
+.card {
+  border-radius: 20px;
+}
