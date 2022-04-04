@@ -24,7 +24,7 @@ const Dashboard = () => {
     <div className="chart-container">
       <div className="mx-auto">
         <AreaChart
-          width={600}
+          width={500}
           height={410}
           data={data}
           margin={{
@@ -63,7 +63,7 @@ const Dashboard = () => {
 
       <div className="mx-auto">
         <BarChart
-          width={600}
+          width={550}
           height={420}
           data={data}
           margin={{
@@ -78,9 +78,9 @@ const Dashboard = () => {
           <YAxis dataKey="investment" />
           <Tooltip />
           <Legend />
-          <Bar dataKey="revenue" fill="#8884d8" />
-          <Bar dataKey="sell" fill="#4DB6AC" />
           <Bar dataKey="investment" fill="#3399FF" />
+          <Bar dataKey="sell" fill="#4DB6AC" />
+          <Bar dataKey="revenue" fill="#8884d8" />
         </BarChart>
       </div>
     </div>

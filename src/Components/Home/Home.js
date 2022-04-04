@@ -39,10 +39,10 @@ const Home = () => {
             <li>Multi-Function Key Switch</li>
           </div>
         </div>
-        <div>
+        <div className="bike-slider">
           <div
             id="carouselExampleSlidesOnly"
-            className="carousel slide carousel-fade"
+            className="carousel slide carousel-fade "
             data-bs-ride="carousel"
           >
             <div className="carousel-inner">
