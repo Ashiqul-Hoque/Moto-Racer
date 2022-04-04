@@ -19,14 +19,13 @@ const Dashboard = () => {
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);
-  console.log(data);
 
   return (
     <div className="chart-container">
       <div className="mx-auto">
         <AreaChart
-          width={500}
-          height={400}
+          width={600}
+          height={410}
           data={data}
           margin={{
             top: 30,

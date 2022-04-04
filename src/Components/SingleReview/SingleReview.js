@@ -12,7 +12,7 @@ const SingleReview = (props) => {
           <p className="card-text text-center">{text}</p>
         </div>
         <div className="card-footer text-center">
-          <small>Stars: {star} out of 5</small>
+          <small>Rating : {star} out of 5 Stars</small>
         </div>
       </div>
     </div>

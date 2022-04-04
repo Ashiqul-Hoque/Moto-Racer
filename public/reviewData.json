@@ -1,44 +1,44 @@
 [
   {
     "id": 1,
-    "name": "A",
+    "name": "Rog Rodrigaze",
     "img": "customer-image/player-1.png",
-    "text": "bbbbbb",
-    "star": 1
+    "text": "\"My buying experience was too good ,i bought it from my home town Ranchi, me and my friends are enjoying this bike and riding is also good but not for log drive , looks and performance is good enough , servicing is also nice in Ranchi service centre.\"",
+    "star": 5
   },
   {
     "id": 2,
-    "name": "B",
+    "name": "Bernie Chris",
     "img": "customer-image/player-2.png",
-    "text": "bbbbbb",
-    "star": 1
+    "text": "\"Brought recently, have raided around 200 kms no major issues . Bike Suspension needs to be improved . Build Quality is excellent. Comfortable for daily use.Compact and smooth while driving\"",
+    "star": 4.5
   },
   {
     "id": 3,
-    "name": "C",
+    "name": "Sam Timburg",
     "img": "customer-image/player-3.png",
-    "text": "bbbbbb",
-    "star": 1
+    "text": "\"R15 is my dream bike.....Its not big capacity...155cc....But bike looking safety amazing.......Proud of you my India!. I am collecting money for buy it.......Its very nice bike to travelling sporty and anything!...\"",
+    "star": 4
   },
   {
     "id": 4,
-    "name": "D",
+    "name": "Adam Heiden",
     "img": "customer-image/player-4.png",
-    "text": "bbbbbb",
-    "star": 1
+    "text": "\"It is my first bike and as a person who was upgrading from an Activa, this felt just perfect for me...It is a Beginner friendly machine...Looks were the first thing that caught my attention...I can't just define how beautiful this bike is... Performance is just mind blowing...\"",
+    "star": 5
   },
   {
     "id": 5,
-    "name": "E",
+    "name": "Erricson Nell",
     "img": "customer-image/player-5.png",
-    "text": "bbbbbb",
-    "star": 1
+    "text": "\"I am a student University student. I love to ride bike and so far I have been driving a lot of motorcycles such as Bajaj, Honda, TVS and so on. But after few months ago I bought a gorgeous motorcycle that is looking very smart and it has some wonderful engine and others quality riches features.\"",
+    "star": 4.5
   },
   {
     "id": 6,
-    "name": "F",
+    "name": "Floyed Smith",
     "img": "customer-image/player-6.png",
-    "text": "bbbbbb",
-    "star": 1
+    "text": "\"Thanks to yamaha for bringing this maxi-scooter to India. Its looks, performance, and mileage everything is great. It's value for money scooter.The only drawback is its accessories are not available in the Indian market yet. I hope we find them soon. I recommend this scooter for those who don't want gears but need bike performance.\"",
+    "star": 5
   }
 ]
