@@ -10,7 +10,6 @@ import {
   BarChart,
   Legend,
   Bar,
-  Line,
 } from "recharts";
 
 const Dashboard = () => {
@@ -57,8 +56,8 @@ const Dashboard = () => {
           <Area
             type="monotone"
             dataKey="sell"
-            stroke="#FFD54F"
-            fill="#FFD54F"
+            stroke="#D4E157 "
+            fill="#FFFF00"
           />
         </AreaChart>
       </div>
@@ -81,7 +80,7 @@ const Dashboard = () => {
           <Tooltip />
           <Legend />
           <Bar dataKey="revenue" fill="#8884d8" />
-          <Bar dataKey="sell" fill="#82ca9d" />
+          <Bar dataKey="sell" fill="#4DB6AC" />
           <Bar dataKey="investment" fill="#3399FF" />
         </BarChart>
       </div>

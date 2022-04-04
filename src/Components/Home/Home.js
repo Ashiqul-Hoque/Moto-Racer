@@ -5,9 +5,11 @@ import img2 from "../../images/image-2.png";
 import img3 from "../../images/image-3.png";
 import useData from "../../hooks/useData";
 import SingleReview from "../SingleReview/SingleReview";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const [reviews, setReviews] = useData();
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -54,7 +56,7 @@ const Home = () => {
         {reviews.slice(0, 3).map((review) => (
           <SingleReview review={review} key={review.id}></SingleReview>
         ))}
-        <button>See More</button>
+        <button onClick={() => navigate("/reviews")}>See More</button>
       </div>
     </div>
   );
