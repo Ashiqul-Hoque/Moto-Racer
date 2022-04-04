@@ -4,5 +4,6 @@
   margin: 15px auto;
 }
 .card {
-  border-radius: 20px;
+  border-radius: 10px;
+  height: 500px;
 }

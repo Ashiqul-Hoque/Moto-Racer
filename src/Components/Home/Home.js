@@ -27,14 +27,13 @@ const Home = () => {
           <h3>Features: </h3>
           <div className="feature">
             <li>
-              155 cc Liquid-cooled, 4-stroke SOHC , 4-valve, FI engine with VVA
-              (Variable Valve Actuation)
+              155 cc Liquid-cooled, 4-valve, FI engine with VVA (Variable Valve
+              Actuation)
             </li>
             <li>Smart Motor Generator System</li>
             <li>Automatic Stop & Start System</li>
             <li>Y-CONNECT APP</li>
             <li>LED Headlight with LED Position Lights</li>
-            <li>Front Pocket with Power Socket</li>
             <li>24.5 L Under-Seat Storage</li>
             <li>Multi-Function Key Switch</li>
           </div>
@@ -73,7 +72,7 @@ const Home = () => {
           className="btn btn-primary d-block mx-auto px-5"
           onClick={() => navigate("/reviews")}
         >
-          See More
+          See All Reviews
         </button>
       </div>
     </div>
